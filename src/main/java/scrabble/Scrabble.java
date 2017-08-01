@@ -16,6 +16,9 @@ public class Scrabble {
             result += 1;
         } else if(letter.equals("aa")) {
             result += 2;
+        } else if(letter.equals("do")){
+            result += 2;
+
         }
         return result;
     }

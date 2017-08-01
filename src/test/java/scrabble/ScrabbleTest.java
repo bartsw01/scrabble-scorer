@@ -21,4 +21,11 @@ public class ScrabbleTest {
         Integer expected = 2;
         assertEquals(expected, testScrabble.calculateScore("aa"));
     }
+
+    @Test
+    public void calculateScore_returnsScoreForTwoDifferentLetters_3() throws Exception {
+        Scrabble testScrabble = new Scrabble();
+        Integer expected = 2;
+        assertEquals(expected, testScrabble.calculateScore("do"));
+    }
 }
