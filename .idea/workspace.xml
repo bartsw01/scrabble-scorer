@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a92530f-cdfc-461c-b66d-65184650081b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrabble/Scrabble.java" afterPath="$PROJECT_DIR$/src/main/java/scrabble/Scrabble.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java" afterPath="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="ScrabbleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+            <state relative-caret-position="512">
+              <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -357,14 +356,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleScorerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/scrabble/ScrabbleScorer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/scrabble/Scrabble.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="656" />
-    <option name="y" value="125" />
+    <option name="x" value="843" />
+    <option name="y" value="87" />
     <option name="width" value="1649" />
     <option name="height" value="1000" />
   </component>
@@ -794,15 +793,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScrabbleTest - 2017.08.01 at 11h 47m 30s.xml">
-      <configuration name="ScrabbleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrabbleTest - 2017.08.01 at 13h 07m 05s.xml">
-      <configuration name="ScrabbleTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ScrabbleTest - 2017.08.01 at 13h 07m 25s.xml">
-      <configuration name="ScrabbleTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ScrabbleTest - 2017.08.01 at 13h 39m 42s.xml">
       <configuration name="ScrabbleTest" configurationId="JUnit" />
     </history-entry>
@@ -824,9 +814,18 @@
     <history-entry file="ScrabbleTest - 2017.08.01 at 14h 26m 05s.xml">
       <configuration name="ScrabbleTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ScrabbleTest - 2017.08.01 at 14h 27m 53s.xml">
+      <configuration name="ScrabbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrabbleTest - 2017.08.01 at 14h 37m 49s.xml">
+      <configuration name="ScrabbleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ScrabbleTest - 2017.08.01 at 14h 41m 28s.xml">
+      <configuration name="ScrabbleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="656" y="125" width="1649" height="1000" extended-state="0" />
+    <frame x="843" y="87" width="1649" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -892,8 +891,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scrabble/ScrabbleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+        <state relative-caret-position="512">
+          <caret line="48" column="29" lean-forward="false" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

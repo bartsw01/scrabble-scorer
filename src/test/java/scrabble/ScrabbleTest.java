@@ -28,4 +28,25 @@ public class ScrabbleTest {
         Integer expected = 3;
         assertEquals(expected, testScrabble.calculateScore("do"));
     }
+
+    @Test
+    public void calculateScore_returnsScoreWithLettersFromAllCategories_33 () throws Exception {
+        Scrabble testScrabble = new Scrabble();
+        Integer expected = 33;
+        assertEquals(expected, testScrabble.calculateScore("qjkfbda"));
+    }
+
+    @Test
+    public void calculateScore_returnsScoreForWordWithMixedCase_33() throws Exception {
+        Scrabble testScrabble = new Scrabble();
+        Integer expected = 33;
+        assertEquals(expected, testScrabble.calculateScore("QjKfBdA"));
+    }
+
+    @Test
+    public void calculateScore_returnsScoreForLongScrabbleWord() throws Exception {
+        Scrabble testScrabble = new Scrabble();
+        Integer expected = 41;
+        assertEquals(expected, testScrabble.calculateScore("OXYPHENBUTAZONE"));
+    }
 }
