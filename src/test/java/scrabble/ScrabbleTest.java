@@ -19,7 +19,7 @@ public class ScrabbleTest {
     public void calculateScore_returnsScoreForDoubleLetter_2() throws Exception {
         Scrabble testScrabble = new Scrabble();
         Integer expected = 2;
-        assertEquals(expected, testScrabble.calculateScore("ab"));
+        assertEquals(expected, testScrabble.calculateScore("aa"));
     }
 
     @Test
