@@ -12,7 +12,7 @@ public class ScrabbleTest {
     public void calculateScore_returnsScoreForSingleLetter_1() throws Exception {
         Scrabble testScrabble = new Scrabble();
         Integer expected = 1;
-        assertEquals(expected, testScrabble.calculateScore("a"));
+        assertEquals(expected, testScrabble.calculateScore("e"));
     }
 
     @Test
@@ -25,7 +25,7 @@ public class ScrabbleTest {
     @Test
     public void calculateScore_returnsScoreForTwoDifferentLetters_3() throws Exception {
         Scrabble testScrabble = new Scrabble();
-        Integer expected = 2;
+        Integer expected = 3;
         assertEquals(expected, testScrabble.calculateScore("do"));
     }
 }

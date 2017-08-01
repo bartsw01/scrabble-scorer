@@ -12,12 +12,12 @@ public class Scrabble {
 
     public Integer calculateScore(String letter) {
         Integer result = 0;
-        if (letter.equals("a") ) {
+        if (letter.equals("a") || letter.equals("e") || letter.equals("i") || (letter.equals("o") || letter.equals("u") || letter.equals("l") || (letter.equals("n") || letter.equals("r") || letter.equals("s") || letter.equals("t") ))) {
             result += 1;
         } else if(letter.equals("aa")) {
             result += 2;
         } else if(letter.equals("do")){
-            result += 2;
+            result += 3;
 
         }
         return result;
