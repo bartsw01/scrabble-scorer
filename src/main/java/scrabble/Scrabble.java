@@ -12,8 +12,10 @@ public class Scrabble {
 
     public Integer calculateScore(String letter) {
         Integer result = 0;
-        if (letter.equals("a")) {
+        if (letter.equals("a") ) {
             result += 1;
+        } else if(letter.equals("aa")) {
+            result += 2;
         }
         return result;
     }
